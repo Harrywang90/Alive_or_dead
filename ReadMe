@@ -1,0 +1,3 @@
+#局域网内检测主机存活状态，可检测windows主机或linux主机
+#windows主机检测：先ping，若有返回，检测返回状态，再判断3389端口是否开启。all true --》alive
+#linux 主机检测：判断22端口开启状态，返回包含“ssh”则--》alive
